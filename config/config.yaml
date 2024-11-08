@@ -1,0 +1,12 @@
+static_params:
+  db_host: "localhost"
+  db_port: 5432
+  log_level: "INFO"
+  max_connections: 10
+
+dynamic_params:
+  current_user: "admin"
+  session_id: null  
+  auth_token: null 
+
+    
