@@ -31,7 +31,7 @@ class FootballStatsService:
                 else:
                     self.logger.warning(f"Failed to fetch data for player {player_id}, Status code: {response.status_code}")
                     attempts += 1
-                    time.sleep(2)  # Wait before retrying
+                    time.sleep(5)  # Wait before retrying
             except requests.exceptions.RequestException as e:
                 self.logger.error(f"Error fetching data for player {player_id}: {e}")
                 attempts += 1
@@ -41,13 +41,15 @@ class FootballStatsService:
     def extract_player_data(self, data):
         """Extract relevant player statistics from API response"""
         try:
-            player_data = {
-                "player_id": data["id"],
+            player_data = {                
+                "id": data["id"],
                 "name": data["name"],
-                "goals": data["goals"],
-                "assists": data["assists"],
-                "appearances": data["appearances"],
-                "age": data["age"],  # Assume the API provides age data
+                "firstName": data["firstName"],
+                "lastName": data["lastName"],
+                "dateOfBirth": data["dateOfBirth"],
+                "nationality": data["nationality"],
+                "position": data["position"],
+                "shirtNumber": data["shirtNumber"],
             }
             return player_data
         except KeyError as e:

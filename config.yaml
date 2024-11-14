@@ -1,0 +1,19 @@
+api_url: "http://api.football-data.org/v4/persons/"
+api_key: "2669f6531a11466d85f6235a08a6f68d"  
+max_threads: 5
+log_level: "DEBUG"
+log_file: "app.log"
+polling_interval: 10  
+retry_count: 3  
+timeout: 10  
+player_position: "Forward"   
+player_age_range:
+  min: 18
+  max: 35  
+server_host: "localhost"
+server_port: 8080
+dynamic_config: {}
+
+ 
+
+    

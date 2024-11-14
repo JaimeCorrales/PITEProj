@@ -13,19 +13,18 @@ class FootballPlayer:
         if not self.player_id or not self.name:
             return False
         
-        # Example validation checks
         if not (0 <= self.goals <= 1000):
-            return False  # Goals should be a reasonable number (e.g., not negative or absurdly high)
+            return False
         
         if not (0 <= self.assists <= 1000):
-            return False  # Assists should also be a reasonable number
-
-        if not (0 <= self.appearances <= 1000):
-            return False  # Appearances should be reasonable
-        
-        if not (18 <= self.age <= 50):  # Assuming players' age should be between 18 and 50
             return False
-
+        
+        if not (0 <= self.appearances <= 1000):
+            return False
+        
+        if not (18 <= self.age <= 50):
+            return False
+        
         return True
 
     def __str__(self):

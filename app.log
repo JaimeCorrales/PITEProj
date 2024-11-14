@@ -1,0 +1,214 @@
+2024-11-14 19:51:28,807 - INFO - Client started
+2024-11-14 19:51:28,808 - INFO - Service started
+2024-11-14 19:51:30,485 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 19:51:33,215 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 19:51:43,760 - ERROR - Error fetching data for player 1: HTTPSConnectionPool(host='api.football-data.org', port=443): Read timed out. (read timeout=5)
+2024-11-14 19:51:43,822 - ERROR - Error fetching data for player 2: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/2 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000156E17141D0>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 19:51:50,834 - ERROR - Error fetching data for player 2: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/2 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000156E1716090>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 19:51:53,829 - ERROR - Error fetching data for player 3: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/3 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000156E16CCC10>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 19:51:57,850 - ERROR - Error fetching data for player 2: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/2 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000156E16FEC90>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 19:52:00,848 - ERROR - Error fetching data for player 3: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/3 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000156E1715A50>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 19:52:03,833 - ERROR - Error fetching data for player 4: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/4 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000156E1721010>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 19:52:07,859 - ERROR - Error fetching data for player 3: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/3 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000156E1722A10>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 19:52:10,841 - ERROR - Error fetching data for player 4: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/4 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000156E17249D0>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 19:52:13,822 - ERROR - Error fetching data for player 5: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000156E15A1AD0>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 19:52:17,864 - ERROR - Error fetching data for player 4: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/4 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000156E16FDA10>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 19:52:20,829 - ERROR - Error fetching data for player 5: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000156E1714E10>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 19:52:24,078 - ERROR - Error fetching data for player 5: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/5 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000156E1717350>: Failed to establish a new connection: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host'))
+2024-11-14 19:57:06,100 - INFO - Client started
+2024-11-14 19:57:06,101 - INFO - Service started
+2024-11-14 19:57:06,259 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 19:57:08,413 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 19:57:10,559 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 19:57:16,263 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 19:57:18,422 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 19:57:20,569 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 19:57:26,247 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 19:57:28,389 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 19:57:30,522 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 19:57:36,258 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 19:57:38,408 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 19:57:40,550 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 19:57:46,254 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 19:57:48,400 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 19:57:50,552 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:03:44,475 - INFO - Client started
+2024-11-14 20:03:44,475 - INFO - Service started
+2024-11-14 20:03:44,611 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:03:46,767 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:03:48,897 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:03:54,625 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:03:56,780 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:03:58,934 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:04:04,607 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:04:06,760 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:04:08,919 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:04:14,623 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:04:16,782 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:04:18,937 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:04:24,811 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:04:27,481 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:04:29,761 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:05:58,742 - INFO - Client started
+2024-11-14 20:05:58,743 - INFO - Service started
+2024-11-14 20:05:58,901 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:06:01,043 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:06:03,169 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:06:08,872 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:06:11,028 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:06:13,160 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:06:18,894 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:06:21,032 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:06:23,436 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:06:33,759 - ERROR - Error fetching data for player 4: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/5/4 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022EAD3BD090>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 20:06:40,767 - ERROR - Error fetching data for player 4: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/5/4 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022EAD3BE610>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 20:06:43,761 - ERROR - Error fetching data for player 5: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/5/5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022EAD3C8CD0>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 20:06:47,775 - ERROR - Error fetching data for player 4: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/5/4 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022EAD3CAC50>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 20:06:50,771 - ERROR - Error fetching data for player 5: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/5/5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022EAD3BF210>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 20:06:57,776 - ERROR - Error fetching data for player 5: HTTPSConnectionPool(host='api.football-data.org', port=443): Max retries exceeded with url: /v4/players/5/5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022EAD3BD110>, 'Connection to api.football-data.org timed out. (connect timeout=5)'))
+2024-11-14 20:13:23,338 - INFO - Client started
+2024-11-14 20:13:23,339 - INFO - Service started
+2024-11-14 20:13:23,482 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:13:25,653 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:13:27,804 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:13:33,467 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:13:35,616 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:13:37,750 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:13:43,497 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:13:45,623 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:13:47,774 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:13:53,472 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:13:55,626 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:13:57,767 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:14:03,498 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:14:05,626 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:14:07,778 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:21:57,839 - INFO - Client started
+2024-11-14 20:21:57,840 - INFO - Service started
+2024-11-14 20:21:57,978 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:22:03,121 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:22:08,001 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:22:08,266 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:22:13,141 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:22:17,971 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:22:18,284 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:22:23,115 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:22:27,974 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:22:28,266 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:22:33,123 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:22:37,992 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:22:38,258 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:22:43,137 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:22:48,300 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:25:14,898 - INFO - Client started
+2024-11-14 20:25:14,899 - INFO - Service started
+2024-11-14 20:25:15,033 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:25:22,175 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:25:25,237 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:25:27,323 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:25:30,368 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:25:35,034 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:25:35,522 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:25:40,178 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:25:45,055 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:25:45,331 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:25:50,213 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:25:55,068 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:25:55,368 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:26:00,212 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:26:05,360 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:29:49,706 - INFO - Client started
+2024-11-14 20:29:49,706 - INFO - Service started
+2024-11-14 20:29:49,840 - WARNING - Failed to fetch data for player 1, Status code: 400
+2024-11-14 20:29:54,982 - WARNING - Failed to fetch data for player 1, Status code: 400
+2024-11-14 20:30:00,152 - WARNING - Failed to fetch data for player 1, Status code: 400
+2024-11-14 20:30:01,247 - WARNING - Failed to fetch data for player 2, Status code: 400
+2024-11-14 20:30:06,382 - WARNING - Failed to fetch data for player 2, Status code: 400
+2024-11-14 20:30:09,860 - WARNING - Failed to fetch data for player 3, Status code: 400
+2024-11-14 20:30:11,522 - WARNING - Failed to fetch data for player 2, Status code: 400
+2024-11-14 20:30:15,003 - WARNING - Failed to fetch data for player 3, Status code: 400
+2024-11-14 20:30:19,847 - WARNING - Failed to fetch data for player 4, Status code: 400
+2024-11-14 20:30:20,140 - WARNING - Failed to fetch data for player 3, Status code: 400
+2024-11-14 20:30:24,988 - WARNING - Failed to fetch data for player 4, Status code: 400
+2024-11-14 20:30:29,866 - WARNING - Failed to fetch data for player 5, Status code: 400
+2024-11-14 20:30:30,126 - WARNING - Failed to fetch data for player 4, Status code: 400
+2024-11-14 20:30:35,018 - WARNING - Failed to fetch data for player 5, Status code: 400
+2024-11-14 20:30:40,143 - WARNING - Failed to fetch data for player 5, Status code: 400
+2024-11-14 20:32:15,249 - INFO - Client started
+2024-11-14 20:32:15,250 - INFO - Service started
+2024-11-14 20:32:15,552 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:32:20,838 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:32:25,536 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:32:26,315 - WARNING - Failed to fetch data for player 1, Status code: 404
+2024-11-14 20:32:30,826 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:32:35,534 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:32:36,102 - WARNING - Failed to fetch data for player 2, Status code: 404
+2024-11-14 20:32:42,239 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:32:48,571 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:32:48,963 - WARNING - Failed to fetch data for player 3, Status code: 404
+2024-11-14 20:32:54,544 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:32:55,986 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:32:59,830 - WARNING - Failed to fetch data for player 4, Status code: 404
+2024-11-14 20:33:01,271 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:33:07,169 - WARNING - Failed to fetch data for player 5, Status code: 404
+2024-11-14 20:35:29,586 - INFO - Client started
+2024-11-14 20:35:29,586 - INFO - Service started
+2024-11-14 20:35:29,695 - ERROR - Error extracting player data: missing key 'goals'
+2024-11-14 20:35:29,696 - INFO - Fetched data for player 1: None
+2024-11-14 20:35:39,703 - ERROR - Error extracting player data: missing key 'goals'
+2024-11-14 20:35:39,704 - INFO - Fetched data for player 2: None
+2024-11-14 20:35:49,670 - ERROR - Error extracting player data: missing key 'goals'
+2024-11-14 20:35:49,670 - INFO - Fetched data for player 3: None
+2024-11-14 20:35:59,688 - ERROR - Error extracting player data: missing key 'goals'
+2024-11-14 20:35:59,688 - INFO - Fetched data for player 4: None
+2024-11-14 20:36:09,801 - ERROR - Error extracting player data: missing key 'goals'
+2024-11-14 20:36:09,802 - INFO - Fetched data for player 5: None
+2024-11-14 20:36:45,262 - INFO - Client started
+2024-11-14 20:36:45,263 - INFO - Service started
+2024-11-14 20:36:45,373 - ERROR - Error extracting player data: missing key 'goals'
+2024-11-14 20:36:45,374 - INFO - Fetched data for player 1: None
+2024-11-14 20:36:55,355 - ERROR - Error extracting player data: missing key 'goals'
+2024-11-14 20:36:55,355 - INFO - Fetched data for player 2: None
+2024-11-14 20:37:05,368 - ERROR - Error extracting player data: missing key 'goals'
+2024-11-14 20:37:05,369 - INFO - Fetched data for player 3: None
+2024-11-14 20:37:16,386 - ERROR - Error extracting player data: missing key 'goals'
+2024-11-14 20:37:16,387 - INFO - Fetched data for player 4: None
+2024-11-14 20:37:25,354 - ERROR - Error extracting player data: missing key 'goals'
+2024-11-14 20:37:25,355 - INFO - Fetched data for player 5: None
+2024-11-14 20:40:48,010 - INFO - Client started
+2024-11-14 20:40:48,010 - INFO - Service started
+2024-11-14 20:40:48,116 - ERROR - Error extracting player data: missing key 'shirtNumberd'
+2024-11-14 20:40:48,116 - INFO - Fetched data for player 1: None
+2024-11-14 20:40:54,934 - INFO - Client started
+2024-11-14 20:40:54,935 - INFO - Service started
+2024-11-14 20:41:04,988 - ERROR - Error fetching data for player 1: HTTPConnectionPool(host='api.football-data.org', port=80): Read timed out. (read timeout=10)
+2024-11-14 20:41:05,043 - ERROR - Error extracting player data: missing key 'shirtNumberd'
+2024-11-14 20:41:05,044 - INFO - Fetched data for player 2: None
+2024-11-14 20:41:09,639 - ERROR - Error extracting player data: missing key 'shirtNumberd'
+2024-11-14 20:41:09,640 - INFO - Fetched data for player 1: None
+2024-11-14 20:41:15,031 - ERROR - Error extracting player data: missing key 'shirtNumberd'
+2024-11-14 20:41:15,031 - INFO - Fetched data for player 3: None
+2024-11-14 20:41:25,042 - ERROR - Error extracting player data: missing key 'shirtNumberd'
+2024-11-14 20:41:25,043 - INFO - Fetched data for player 4: None
+2024-11-14 20:41:35,043 - ERROR - Error extracting player data: missing key 'shirtNumberd'
+2024-11-14 20:41:35,043 - INFO - Fetched data for player 5: None
+2024-11-14 20:42:05,724 - INFO - Client started
+2024-11-14 20:42:05,724 - INFO - Service started
+2024-11-14 20:42:06,064 - INFO - Fetched data for player 1: {'id': 1, 'name': 'Illarramendi', 'firstName': '', 'lastName': 'Illarramendi', 'dateOfBirth': '1990-03-08', 'nationality': 'Spain', 'position': 'Midfield', 'shirtNumber': 14}
+2024-11-14 20:42:15,850 - INFO - Fetched data for player 2: {'id': 2, 'name': 'Juanmi', 'firstName': '', 'lastName': 'Juanmi', 'dateOfBirth': '1993-05-20', 'nationality': 'Spain', 'position': 'Offence', 'shirtNumber': 7}
+2024-11-14 20:42:25,820 - INFO - Fetched data for player 3: {'id': 3, 'name': 'Zurutuza', 'firstName': 'David', 'lastName': None, 'dateOfBirth': '1986-07-19', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 20:42:35,843 - INFO - Fetched data for player 4: {'id': 4, 'name': 'Xabi Prieto', 'firstName': 'Xabier', 'lastName': None, 'dateOfBirth': '1983-08-29', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 20:42:45,845 - INFO - Fetched data for player 5: {'id': 5, 'name': 'Raúl Navas', 'firstName': '', 'lastName': 'Raúl Navas', 'dateOfBirth': '1988-05-11', 'nationality': 'Spain', 'position': 'Defence', 'shirtNumber': 17}
+2024-11-14 20:50:41,770 - INFO - Client started
+2024-11-14 20:50:41,770 - INFO - Service started
+2024-11-14 20:50:41,878 - INFO - Fetched data for player 1: {'id': 1, 'name': 'Illarramendi', 'firstName': '', 'lastName': 'Illarramendi', 'dateOfBirth': '1990-03-08', 'nationality': 'Spain', 'position': 'Midfield', 'shirtNumber': 14}
+2024-11-14 20:50:51,904 - INFO - Fetched data for player 2: {'id': 2, 'name': 'Juanmi', 'firstName': '', 'lastName': 'Juanmi', 'dateOfBirth': '1993-05-20', 'nationality': 'Spain', 'position': 'Offence', 'shirtNumber': 7}
+2024-11-14 20:51:01,899 - INFO - Fetched data for player 3: {'id': 3, 'name': 'Zurutuza', 'firstName': 'David', 'lastName': None, 'dateOfBirth': '1986-07-19', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 20:51:11,885 - INFO - Fetched data for player 4: {'id': 4, 'name': 'Xabi Prieto', 'firstName': 'Xabier', 'lastName': None, 'dateOfBirth': '1983-08-29', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 20:51:21,868 - INFO - Fetched data for player 5: {'id': 5, 'name': 'Raúl Navas', 'firstName': '', 'lastName': 'Raúl Navas', 'dateOfBirth': '1988-05-11', 'nationality': 'Spain', 'position': 'Defence', 'shirtNumber': 17}
+2024-11-14 20:51:56,216 - INFO - Client started
+2024-11-14 20:51:56,217 - INFO - Service started
+2024-11-14 20:51:56,315 - INFO - Fetched data for player 1: {'id': 1, 'name': 'Illarramendi', 'firstName': '', 'lastName': 'Illarramendi', 'dateOfBirth': '1990-03-08', 'nationality': 'Spain', 'position': 'Midfield', 'shirtNumber': 14}
+2024-11-14 20:52:06,357 - INFO - Fetched data for player 2: {'id': 2, 'name': 'Juanmi', 'firstName': '', 'lastName': 'Juanmi', 'dateOfBirth': '1993-05-20', 'nationality': 'Spain', 'position': 'Offence', 'shirtNumber': 7}
+2024-11-14 20:52:16,337 - INFO - Fetched data for player 3: {'id': 3, 'name': 'Zurutuza', 'firstName': 'David', 'lastName': None, 'dateOfBirth': '1986-07-19', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 20:52:26,322 - INFO - Fetched data for player 4: {'id': 4, 'name': 'Xabi Prieto', 'firstName': 'Xabier', 'lastName': None, 'dateOfBirth': '1983-08-29', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
