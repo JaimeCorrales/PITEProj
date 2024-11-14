@@ -227,3 +227,32 @@
 2024-11-14 21:00:53,775 - INFO - Fetched data for player 3: {'id': 3, 'name': 'Zurutuza', 'firstName': 'David', 'lastName': None, 'dateOfBirth': '1986-07-19', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
 2024-11-14 21:01:03,769 - INFO - Fetched data for player 4: {'id': 4, 'name': 'Xabi Prieto', 'firstName': 'Xabier', 'lastName': None, 'dateOfBirth': '1983-08-29', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
 2024-11-14 21:01:13,733 - INFO - Fetched data for player 5: {'id': 5, 'name': 'Raúl Navas', 'firstName': '', 'lastName': 'Raúl Navas', 'dateOfBirth': '1988-05-11', 'nationality': 'Spain', 'position': 'Defence', 'shirtNumber': 17}
+2024-11-14 21:22:51 - INFO - Client started
+2024-11-14 21:22:51,246 - INFO - Client started
+2024-11-14 21:22:51 - INFO - Service started
+2024-11-14 21:22:51,247 - INFO - Service started
+2024-11-14 21:22:51 - DEBUG - Fetching data for player 1
+2024-11-14 21:22:51 - DEBUG - Starting new HTTP connection (1): api.football-data.org:80
+2024-11-14 21:22:51 - DEBUG - http://api.football-data.org:80 "GET /v4/persons//1 HTTP/11" 200 None
+2024-11-14 21:22:51 - INFO - Fetched data for player 1: {'id': 1, 'name': 'Illarramendi', 'firstName': '', 'lastName': 'Illarramendi', 'dateOfBirth': '1990-03-08', 'nationality': 'Spain', 'position': 'Midfield', 'shirtNumber': 14}
+2024-11-14 21:22:51,571 - INFO - Fetched data for player 1: {'id': 1, 'name': 'Illarramendi', 'firstName': '', 'lastName': 'Illarramendi', 'dateOfBirth': '1990-03-08', 'nationality': 'Spain', 'position': 'Midfield', 'shirtNumber': 14}
+2024-11-14 21:23:01 - DEBUG - Fetching data for player 2
+2024-11-14 21:23:01 - DEBUG - Starting new HTTP connection (1): api.football-data.org:80
+2024-11-14 21:23:01 - DEBUG - http://api.football-data.org:80 "GET /v4/persons//2 HTTP/11" 200 None
+2024-11-14 21:23:01 - INFO - Fetched data for player 2: {'id': 2, 'name': 'Juanmi', 'firstName': '', 'lastName': 'Juanmi', 'dateOfBirth': '1993-05-20', 'nationality': 'Spain', 'position': 'Offence', 'shirtNumber': 7}
+2024-11-14 21:23:01,480 - INFO - Fetched data for player 2: {'id': 2, 'name': 'Juanmi', 'firstName': '', 'lastName': 'Juanmi', 'dateOfBirth': '1993-05-20', 'nationality': 'Spain', 'position': 'Offence', 'shirtNumber': 7}
+2024-11-14 21:23:11 - DEBUG - Fetching data for player 3
+2024-11-14 21:23:11 - DEBUG - Starting new HTTP connection (1): api.football-data.org:80
+2024-11-14 21:23:11 - DEBUG - http://api.football-data.org:80 "GET /v4/persons//3 HTTP/11" 200 None
+2024-11-14 21:23:11 - INFO - Fetched data for player 3: {'id': 3, 'name': 'Zurutuza', 'firstName': 'David', 'lastName': None, 'dateOfBirth': '1986-07-19', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 21:23:11,516 - INFO - Fetched data for player 3: {'id': 3, 'name': 'Zurutuza', 'firstName': 'David', 'lastName': None, 'dateOfBirth': '1986-07-19', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 21:23:21 - DEBUG - Fetching data for player 4
+2024-11-14 21:23:21 - DEBUG - Starting new HTTP connection (1): api.football-data.org:80
+2024-11-14 21:23:21 - DEBUG - http://api.football-data.org:80 "GET /v4/persons//4 HTTP/11" 200 None
+2024-11-14 21:23:21 - INFO - Fetched data for player 4: {'id': 4, 'name': 'Xabi Prieto', 'firstName': 'Xabier', 'lastName': None, 'dateOfBirth': '1983-08-29', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 21:23:21,712 - INFO - Fetched data for player 4: {'id': 4, 'name': 'Xabi Prieto', 'firstName': 'Xabier', 'lastName': None, 'dateOfBirth': '1983-08-29', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 21:23:31 - DEBUG - Fetching data for player 5
+2024-11-14 21:23:31 - DEBUG - Starting new HTTP connection (1): api.football-data.org:80
+2024-11-14 21:23:31 - DEBUG - http://api.football-data.org:80 "GET /v4/persons//5 HTTP/11" 200 None
+2024-11-14 21:23:31 - INFO - Fetched data for player 5: {'id': 5, 'name': 'Raúl Navas', 'firstName': '', 'lastName': 'Raúl Navas', 'dateOfBirth': '1988-05-11', 'nationality': 'Spain', 'position': 'Defence', 'shirtNumber': 17}
+2024-11-14 21:23:31,541 - INFO - Fetched data for player 5: {'id': 5, 'name': 'Raúl Navas', 'firstName': '', 'lastName': 'Raúl Navas', 'dateOfBirth': '1988-05-11', 'nationality': 'Spain', 'position': 'Defence', 'shirtNumber': 17}
