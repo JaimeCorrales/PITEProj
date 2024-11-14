@@ -212,3 +212,18 @@
 2024-11-14 20:52:06,357 - INFO - Fetched data for player 2: {'id': 2, 'name': 'Juanmi', 'firstName': '', 'lastName': 'Juanmi', 'dateOfBirth': '1993-05-20', 'nationality': 'Spain', 'position': 'Offence', 'shirtNumber': 7}
 2024-11-14 20:52:16,337 - INFO - Fetched data for player 3: {'id': 3, 'name': 'Zurutuza', 'firstName': 'David', 'lastName': None, 'dateOfBirth': '1986-07-19', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
 2024-11-14 20:52:26,322 - INFO - Fetched data for player 4: {'id': 4, 'name': 'Xabi Prieto', 'firstName': 'Xabier', 'lastName': None, 'dateOfBirth': '1983-08-29', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 20:52:36,312 - INFO - Fetched data for player 5: {'id': 5, 'name': 'Raúl Navas', 'firstName': '', 'lastName': 'Raúl Navas', 'dateOfBirth': '1988-05-11', 'nationality': 'Spain', 'position': 'Defence', 'shirtNumber': 17}
+2024-11-14 20:56:49,849 - INFO - Client started
+2024-11-14 20:56:49,849 - INFO - Service started
+2024-11-14 20:56:49,962 - INFO - Fetched data for player 1: {'id': 1, 'name': 'Illarramendi', 'firstName': '', 'lastName': 'Illarramendi', 'dateOfBirth': '1990-03-08', 'nationality': 'Spain', 'position': 'Midfield', 'shirtNumber': 14}
+2024-11-14 20:57:01,639 - INFO - Fetched data for player 2: {'id': 2, 'name': 'Juanmi', 'firstName': '', 'lastName': 'Juanmi', 'dateOfBirth': '1993-05-20', 'nationality': 'Spain', 'position': 'Offence', 'shirtNumber': 7}
+2024-11-14 20:57:10,043 - INFO - Fetched data for player 3: {'id': 3, 'name': 'Zurutuza', 'firstName': 'David', 'lastName': None, 'dateOfBirth': '1986-07-19', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 20:57:19,965 - INFO - Fetched data for player 4: {'id': 4, 'name': 'Xabi Prieto', 'firstName': 'Xabier', 'lastName': None, 'dateOfBirth': '1983-08-29', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 20:57:29,961 - INFO - Fetched data for player 5: {'id': 5, 'name': 'Raúl Navas', 'firstName': '', 'lastName': 'Raúl Navas', 'dateOfBirth': '1988-05-11', 'nationality': 'Spain', 'position': 'Defence', 'shirtNumber': 17}
+2024-11-14 21:00:33,566 - INFO - Client started
+2024-11-14 21:00:33,567 - INFO - Service started
+2024-11-14 21:00:33,662 - INFO - Fetched data for player 1: {'id': 1, 'name': 'Illarramendi', 'firstName': '', 'lastName': 'Illarramendi', 'dateOfBirth': '1990-03-08', 'nationality': 'Spain', 'position': 'Midfield', 'shirtNumber': 14}
+2024-11-14 21:00:43,682 - INFO - Fetched data for player 2: {'id': 2, 'name': 'Juanmi', 'firstName': '', 'lastName': 'Juanmi', 'dateOfBirth': '1993-05-20', 'nationality': 'Spain', 'position': 'Offence', 'shirtNumber': 7}
+2024-11-14 21:00:53,775 - INFO - Fetched data for player 3: {'id': 3, 'name': 'Zurutuza', 'firstName': 'David', 'lastName': None, 'dateOfBirth': '1986-07-19', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 21:01:03,769 - INFO - Fetched data for player 4: {'id': 4, 'name': 'Xabi Prieto', 'firstName': 'Xabier', 'lastName': None, 'dateOfBirth': '1983-08-29', 'nationality': 'Spain', 'position': None, 'shirtNumber': None}
+2024-11-14 21:01:13,733 - INFO - Fetched data for player 5: {'id': 5, 'name': 'Raúl Navas', 'firstName': '', 'lastName': 'Raúl Navas', 'dateOfBirth': '1988-05-11', 'nationality': 'Spain', 'position': 'Defence', 'shirtNumber': 17}
