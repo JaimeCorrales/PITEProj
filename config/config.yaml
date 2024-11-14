@@ -1,12 +1,21 @@
-static_params:
-  db_host: "localhost"
-  db_port: 5432
-  log_level: "INFO"
-  max_connections: 10
+api_url: "https://api.football-data.org/v4/players"
+api_key: "your_api_key_here"  # Replace with your actual API key
+max_threads: 5
+log_level: "DEBUG"
+log_file: "app.log"
+polling_interval: 10  # seconds for data polling
+retry_count: 3  # How many retries for API requests
+timeout: 5  # Timeout for HTTP requests
+player_position: "Forward"  # Default player position filter
+min_goals: 10  # Minimum goals filter
+max_goals: 50  # Maximum goals filter
+player_age_range:
+  min: 18
+  max: 35  # Age filter for players
+server_host: "localhost"
+server_port: 8080
+dynamic_config: {}
 
-dynamic_params:
-  current_user: "admin"
-  session_id: null  
-  auth_token: null 
+ 
 
     

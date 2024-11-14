@@ -1,36 +1,21 @@
+import time
 from config import Config
-from module1.module1_class1 import Module1Class1
-from module1.module1_class2 import Module1Class2
-from module2.module2_class1 import Module2Class1
-from module2.module2_class2 import Module2Class2
-from module3.module3_class1 import Module3Class1
-from module3.module3_class2 import Module3Class2
+from log_setup import setup_logging
+from client import FootballStatsClient
 
 def main():
-    config = Config()
+    # Load configuration from the YAML file
+    config = Config(config_file="config.yaml")
+    logger = setup_logging(log_level=config.get("log_level"), log_file=config.get("log_file"))
+    config.config["logger"] = logger
 
-    config.set_dynamic_param('auth_token', '12345')
-    config.set_dynamic_param('current_user', 'johndoe')
-    config.set_dynamic_param('session_id', 'abc123')
+    # Create and start the client
+    client = FootballStatsClient(config)
+    client.start()
 
-    module1_class1 = Module1Class1(config)
-    module1_class1.connect_db()
-    module1_class1.show_user()
-
-    module1_class2 = Module1Class2(config)
-    module1_class2.log_message("This is a log message.")
-
-    module2_class1 = Module2Class1(config)
-    module2_class1.authenticate()
-
-    module2_class2 = Module2Class2(config)
-    module2_class2.get_max_connections()
-
-    module3_class1 = Module3Class1(config)
-    module3_class1.get_db_host()
-
-    module3_class2 = Module3Class2(config)
-    module3_class2.set_session_id('xyz789')
+    # Simulate some wait time to let threads complete
+    time.sleep(20)
 
 if __name__ == "__main__":
     main()
+
