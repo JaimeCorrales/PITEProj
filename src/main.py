@@ -21,8 +21,6 @@ def main():
     # Create and start the client
     client = FootballStatsClient(config)
     client.start()
-
-    # Simulate some wait time to let threads complete
     time.sleep(20)
 
 if __name__ == "__main__":

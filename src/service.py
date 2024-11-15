@@ -14,8 +14,7 @@ class FootballStatsService:
         self.timeout = config.get("timeout")
         self.players_data = []
 
-    def fetch_player_stats(self, player_id):
-        """Fetch real player stats using API"""
+    def fetch_player_stats(self, player_id):        
         headers = {"X-Auth-Token": self.api_key}
         url = f"{self.api_url}/{player_id}"
         attempts = 0
@@ -59,6 +58,6 @@ class FootballStatsService:
     def start_fetching(self):
         """Start the service to fetch player stats"""
         self.logger.info("Service started")
-        for player_id in range(1, 6):  # Example: Fetching stats for 5 players
+        for player_id in range(1, 6):  
             threading.Thread(target=self.fetch_player_stats, args=(player_id,)).start()
             time.sleep(self.config.get("polling_interval"))
